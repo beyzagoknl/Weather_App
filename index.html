@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="./public/style.css" />
+    <link rel="icon" type="image/png" href="./public/images/kweather.png" />
+  </head>
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="./public/images/back1.mp4" type="video/mp4" />
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="clock">
+      <div>
+        <div class="info date"></div>
+        <div class="info day"></div>
+      </div>
+      <div class="dot"></div>
+      <div>
+        <div class="hour-hand"></div>
+        <div class="minute-hand"></div>
+        <div class="second-hand"></div>
+      </div>
+      <div>
+        <span class="h3">3</span>
+        <span class="h6">6</span>
+        <span class="h9">9</span>
+        <span class="h12">12</span>
+      </div>
+      <div class="diallines"></div>
+    </div>
+    <div class="app">
+      <div class="header">
+        <h1></h1>
+        <input type="text" id="searchBar" placeholder="Enter a city" />
+      </div>
+      <div id="content">
+        <div class="city"></div>
+        <div class="temp"></div>
+        <div class="desc"></div>
+        <div class="minmax"></div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
