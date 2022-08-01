@@ -8,7 +8,7 @@ Project link is available at [WeatherApp](https://beyzagoknl.github.io/Weather_A
 
 ## 2. Description
 
-Weather App uses [The OpenWeather API](https://api.openweathermap.org/data/2.5/) and brings meal and its recipe.
+Weather App uses [The OpenWeather API](https://api.openweathermap.org/data/2.5/) and brings city's current weather.
 
 ## 3. Application
 
