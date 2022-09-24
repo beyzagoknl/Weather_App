@@ -4,8 +4,6 @@
 
 Project link is available at [WeatherApp](https://beyzagoknl.github.io/Weather_App/index.html)
 
-You must have a key that can be obtained from OpenWeather API to use the app fully. 
-
 ![ Weather App!](./public/images/WeatherApp.png)
 
 ## 2. Description
